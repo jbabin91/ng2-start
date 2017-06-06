@@ -13,24 +13,25 @@
             padding: 50px 0;
         }
     </style>
+
     <!-- js -->
+    <!-- load the dependencies -->
     <script src="node_modules/core-js/client/shim.min.js"></script>
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
 
-    <!-- load the dependencies -->
+    <!-- load our angular app with systemjs-->
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="systemjs.config.js"></script>
+    <script src="system.config.js"></script>
     <script>
         System.import('app').catch(function(err) {
             console.log(err);
         });
     </script>
-    <!-- load our angular app with systemjs-->
 </head>
 
 <body class="container">
-    I am the app!
+    <my-app></my-app>
 </body>
 
 </html>
