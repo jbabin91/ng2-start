@@ -26,5 +26,12 @@
     "concurrently": "^3.4.0",
     "lite-server": "^2.3.0",
     "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.0",
+    "systemjs": "^0.20.13",
+    "zone.js": "^0.8.11"
   }
 }
