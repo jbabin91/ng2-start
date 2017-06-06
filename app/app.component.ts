@@ -34,7 +34,7 @@ import { User } from "./shared/models/user";
           </div>
 
           <div class="jumbotron"
-          *ngIf="!activeUser">
+          *ngIf="!activeUser gowild">
             <span class="glyphicon glyphicon-hand-left"></span>
             <h2>Choose a User</h2>
           </div>
@@ -52,6 +52,10 @@ import { User } from "./shared/models/user";
     }
     .jumbotron .glyphicon {
       font-size: 80px;
+    }
+    .gowild {
+      background: red;
+      color: white;
     }
   `]
 })
