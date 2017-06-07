@@ -33,8 +33,8 @@ import { User } from "./shared/models/user";
             <h2>{{ activeUser.name }} ({{ activeUser.username }})</h2>
           </div>
 
-          <div class="jumbotron"
-          *ngIf="!activeUser gowild">
+          <div class="jumbotron gowild"
+          *ngIf="!activeUser">
             <span class="glyphicon glyphicon-hand-left"></span>
             <h2>Choose a User</h2>
           </div>
